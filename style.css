@@ -1,0 +1,78 @@
+#fondo{
+background-color: #5d59a5;
+}
+#exterior-titulo{
+  background-color: #a4c5e9;
+  margin-top: -20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#titulo{
+  text-align: center;
+    color: #5d59a5;
+    text-shadow: 3px -3px 2px white;
+}
+#exterior-descripcion{
+  background-color: #a4c5e9;
+  margin-top: -35px;
+  padding-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: -20px;
+  padding-bottom: 10px;
+}
+#descripcion{
+  background-color: white;
+  padding-top: 3px;
+  text-align: justify;
+  padding-right: 5px;
+}
+
+/* clearfix*/
+#descripcion::after{
+  display: table;
+  clear: both;
+  content: " ";
+}
+#foto{
+  width: 150px;
+  height: 150px;
+  float: left;
+  border: thin solid black;
+  margin: 7px;
+  padding: 6px;
+
+}
+.texto-naranja{
+  background-color: #f28226;
+  width: 80%;
+  position: relative;
+  left: 2em;
+  border: thick dashed white;
+  right: 4em;
+}
+.container-verde{
+  padding: 0 2.5em;
+}
+.texto-verde{
+  background-image: url(images/verde.png);
+  border-radius: 5px;
+
+}
+.texto-marron{
+  background-color: #b45421;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-left: thick solid white;
+  border-right: thick solid white;
+}
+.texto{
+  padding: 1.5em;
+  margin: 1em;
+}
+.texto-marron, .texto-naranja{
+color: white;
+}
+.negrita{
+  color: black;
+}
